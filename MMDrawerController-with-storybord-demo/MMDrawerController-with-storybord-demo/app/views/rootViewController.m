@@ -8,7 +8,11 @@
 
 #import "rootViewController.h"
 
-@interface rootViewController ()
+@interface rootViewController () {
+    NSMutableArray *images;
+}
+
+
 
 @end
 
@@ -27,6 +31,11 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    for (int i=0; i<10; i++) {
+        NSString *imgFile = [NSString stringWithFormat:@"%d.jpeg",i];
+        [images addObject:kSrcName(imgFile)];
+    }
 }
 
 - (void)didReceiveMemoryWarning
@@ -45,5 +54,20 @@
     // Pass the selected object to the new view controller.
 }
 */
+
+- (NSInteger)numberOfSectionsInCollectionView:(UICollectionView *)collectionView
+{
+    return 1;
+}
+
+- (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section
+{
+    return [images count];
+}
+
+- (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath
+{
+    
+}
 
 @end
