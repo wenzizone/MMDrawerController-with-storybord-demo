@@ -7,17 +7,35 @@
 //
 
 #import "AppDelegate.h"
+#import "MMDrawerController.h"
+#import "MMdrawerVisualState.h"
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    //self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
-    [self.window makeKeyAndVisible];
+    //self.window.backgroundColor = [UIColor whiteColor];
+    //[self.window makeKeyAndVisible];
+    
+    [self initDrawer];
+    
     return YES;
 }
+
+- (void)initDrawer {
+    UIStoryboard* mainStoryboard = [UIStoryboard storyboardWithName:@"main" bundle: nil];
+    drawerController = [[MMDrawerController alloc] initWithCenterViewController:[mainStoryboard instantiateViewControllerWithIdentifier:@"centerNav"] leftDrawerViewController:[mainStoryboard instantiateViewControllerWithIdentifier:@"menu"]];
+    
+    [drawerController setDrawerVisualStateBlock:[MMDrawerVisualState slideAndScaleVisualStateBlock]];
+    [drawerController setMaximumLeftDrawerWidth:260.0];
+    [drawerController setOpenDrawerGestureModeMask:MMOpenDrawerGestureModePanningNavigationBar];
+    [drawerController setCloseDrawerGestureModeMask:MMCloseDrawerGestureModeAll];
+    
+    self.window.rootViewController = drawerController;
+}
+
 
 - (void)applicationWillResignActive:(UIApplication *)application
 {

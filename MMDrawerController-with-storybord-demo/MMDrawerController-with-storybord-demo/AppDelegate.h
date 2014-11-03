@@ -8,7 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
+@class MMDrawerController;
+
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
+{
+    @private
+    MMDrawerController *drawerController;
+}
 
 @property (strong, nonatomic) UIWindow *window;
 

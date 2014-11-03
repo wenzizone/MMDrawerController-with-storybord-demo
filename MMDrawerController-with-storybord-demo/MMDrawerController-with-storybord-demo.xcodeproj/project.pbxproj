@@ -19,9 +19,11 @@
 		1E0CCE1B192D9DCA00E3953F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E0CCE03192D9DCA00E3953F /* UIKit.framework */; };
 		1E0CCE23192D9DCA00E3953F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1E0CCE21192D9DCA00E3953F /* InfoPlist.strings */; };
 		1E0CCE25192D9DCA00E3953F /* MMDrawerController_with_storybord_demoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E0CCE24192D9DCA00E3953F /* MMDrawerController_with_storybord_demoTests.m */; };
+		1E3737DF1A07757D001811F7 /* rootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E3737DE1A07757D001811F7 /* rootViewController.m */; };
+		1E3737E21A07794C001811F7 /* leftDrawerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E3737E11A07794C001811F7 /* leftDrawerViewController.m */; };
+		1E3737E61A077B64001811F7 /* leftDrawerTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E3737E51A077B64001811F7 /* leftDrawerTableViewCell.m */; };
 		1E7F67A819387C37002D7D05 /* main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E7F67A719387C37002D7D05 /* main.storyboard */; };
 		1E7F67AC19387FA4002D7D05 /* images.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1E7F67AB19387FA4002D7D05 /* images.bundle */; };
-		1E7F67B11938806D002D7D05 /* rootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E7F67B01938806D002D7D05 /* rootViewController.m */; };
 		BD9FE52299AA4E11BFF995FC /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AB9E2184B1AA4116B7709D5D /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -36,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		11ECC0D723A62BAB1B12F060 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		1E0CCDFC192D9DCA00E3953F /* MMDrawerController-with-storybord-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MMDrawerController-with-storybord-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E0CCDFF192D9DCA00E3953F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1E0CCE01192D9DCA00E3953F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -52,11 +55,15 @@
 		1E0CCE20192D9DCA00E3953F /* MMDrawerController-with-storybord-demoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MMDrawerController-with-storybord-demoTests-Info.plist"; sourceTree = "<group>"; };
 		1E0CCE22192D9DCA00E3953F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1E0CCE24192D9DCA00E3953F /* MMDrawerController_with_storybord_demoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMDrawerController_with_storybord_demoTests.m; sourceTree = "<group>"; };
+		1E3737DD1A07757D001811F7 /* rootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rootViewController.h; sourceTree = "<group>"; };
+		1E3737DE1A07757D001811F7 /* rootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = rootViewController.m; sourceTree = "<group>"; };
+		1E3737E01A07794C001811F7 /* leftDrawerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = leftDrawerViewController.h; sourceTree = "<group>"; };
+		1E3737E11A07794C001811F7 /* leftDrawerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = leftDrawerViewController.m; sourceTree = "<group>"; };
+		1E3737E41A077B64001811F7 /* leftDrawerTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = leftDrawerTableViewCell.h; sourceTree = "<group>"; };
+		1E3737E51A077B64001811F7 /* leftDrawerTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = leftDrawerTableViewCell.m; sourceTree = "<group>"; };
 		1E7F67A719387C37002D7D05 /* main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = main.storyboard; sourceTree = "<group>"; };
 		1E7F67AB19387FA4002D7D05 /* images.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = images.bundle; sourceTree = "<group>"; };
-		1E7F67AF1938806D002D7D05 /* rootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rootViewController.h; sourceTree = "<group>"; };
-		1E7F67B01938806D002D7D05 /* rootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = rootViewController.m; sourceTree = "<group>"; };
-		371C1D0E493C43B8A0859F88 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		2BA2241DD2052D46E0C34206 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		AB9E2184B1AA4116B7709D5D /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -85,6 +92,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		106480E8AA01EAA37AA07BC2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2BA2241DD2052D46E0C34206 /* Pods.debug.xcconfig */,
+				11ECC0D723A62BAB1B12F060 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		1E0CCDF3192D9DCA00E3953F = {
 			isa = PBXGroup;
 			children = (
@@ -92,7 +108,7 @@
 				1E0CCE1E192D9DCA00E3953F /* MMDrawerController-with-storybord-demoTests */,
 				1E0CCDFE192D9DCA00E3953F /* Frameworks */,
 				1E0CCDFD192D9DCA00E3953F /* Products */,
-				371C1D0E493C43B8A0859F88 /* Pods.xcconfig */,
+				106480E8AA01EAA37AA07BC2 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -160,6 +176,27 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		1E3737D91A077505001811F7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1E3737E31A077B46001811F7 /* cell */,
+				1E3737DD1A07757D001811F7 /* rootViewController.h */,
+				1E3737DE1A07757D001811F7 /* rootViewController.m */,
+				1E3737E01A07794C001811F7 /* leftDrawerViewController.h */,
+				1E3737E11A07794C001811F7 /* leftDrawerViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1E3737E31A077B46001811F7 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				1E3737E41A077B64001811F7 /* leftDrawerTableViewCell.h */,
+				1E3737E51A077B64001811F7 /* leftDrawerTableViewCell.m */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
 		1E7F67AA19387FA4002D7D05 /* resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -171,18 +208,9 @@
 		1E7F67AD19388046002D7D05 /* app */ = {
 			isa = PBXGroup;
 			children = (
-				1E7F67AE19388046002D7D05 /* views */,
+				1E3737D91A077505001811F7 /* Controller */,
 			);
 			path = app;
-			sourceTree = "<group>";
-		};
-		1E7F67AE19388046002D7D05 /* views */ = {
-			isa = PBXGroup;
-			children = (
-				1E7F67AF1938806D002D7D05 /* rootViewController.h */,
-				1E7F67B01938806D002D7D05 /* rootViewController.m */,
-			);
-			path = views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -292,7 +320,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		917473D682DE4F83AD5EFEB7 /* Check Pods Manifest.lock */ = {
@@ -317,8 +345,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E3737E21A07794C001811F7 /* leftDrawerViewController.m in Sources */,
 				1E0CCE10192D9DCA00E3953F /* AppDelegate.m in Sources */,
-				1E7F67B11938806D002D7D05 /* rootViewController.m in Sources */,
+				1E3737DF1A07757D001811F7 /* rootViewController.m in Sources */,
+				1E3737E61A077B64001811F7 /* leftDrawerTableViewCell.m in Sources */,
 				1E0CCE0C192D9DCA00E3953F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -377,7 +407,7 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -415,7 +445,7 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -433,7 +463,7 @@
 		};
 		1E0CCE29192D9DCA00E3953F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 371C1D0E493C43B8A0859F88 /* Pods.xcconfig */;
+			baseConfigurationReference = 2BA2241DD2052D46E0C34206 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -448,7 +478,7 @@
 		};
 		1E0CCE2A192D9DCA00E3953F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 371C1D0E493C43B8A0859F88 /* Pods.xcconfig */;
+			baseConfigurationReference = 11ECC0D723A62BAB1B12F060 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
